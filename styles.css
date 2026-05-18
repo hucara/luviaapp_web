@@ -570,19 +570,27 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .split.reverse > *:first-child {
+    order: 2;
+  }
+
+  .split.reverse > *:last-child {
+    order: 1;
+  }
+
   .hero {
     gap: 36px;
     min-height: auto;
-    padding: 26px 0 72px;
+    padding: 26px 0 56px;
   }
 
   .home-page > .home-panel + .home-panel {
-    margin-top: 18px;
+    margin-top: 16px;
   }
 
   .home-page .hero {
-    gap: 42px;
-    padding: 30px 0 56px;
+    gap: 32px;
+    padding: 24px 0 44px;
   }
 
   .hero-art {
@@ -601,6 +609,28 @@ h3 {
     font-size: clamp(24px, 6vw, 34px);
   }
 
+  .home-page h1 {
+    font-size: clamp(40px, 10vw, 70px);
+    line-height: 1.0;
+  }
+
+  .home-page h2 {
+    font-size: clamp(28px, 7.5vw, 46px);
+  }
+
+  .home-page h3 {
+    font-size: clamp(20px, 5vw, 30px);
+  }
+
+  .home-page .motto {
+    font-size: clamp(17px, 5vw, 24px);
+  }
+
+  .home-page .lede {
+    font-size: clamp(16px, 4.2vw, 22px);
+    margin-top: 18px;
+  }
+
   .lede {
     font-size: clamp(20px, 5vw, 27px);
   }
@@ -610,7 +640,7 @@ h3 {
   }
 
   .home-page .section {
-    padding: 64px 0;
+    padding: 52px 0;
   }
 
   .home-page #privacy,
@@ -626,7 +656,7 @@ h3 {
 
   .home-page .strip {
     width: min(1180px, calc(100% - 32px));
-    padding: 58px 22px;
+    padding: 48px 22px;
     border-radius: 28px;
   }
 
@@ -647,7 +677,7 @@ h3 {
 
   .home-page .section p,
   .home-page .notice-band p {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .privacy-grid {
@@ -718,76 +748,139 @@ h3 {
   }
 
   h1 {
-    font-size: clamp(44px, 13vw, 60px);
+    font-size: clamp(36px, 11vw, 52px);
   }
 
   h2 {
-    font-size: clamp(32px, 10vw, 44px);
+    font-size: clamp(26px, 8.5vw, 38px);
+  }
+
+  .home-page h1 {
+    font-size: clamp(30px, 10vw, 44px);
+    line-height: 1.02;
+  }
+
+  .home-page h2 {
+    font-size: clamp(22px, 7.5vw, 32px);
+    line-height: 1.06;
+  }
+
+  .home-page h3 {
+    font-size: clamp(17px, 5vw, 22px);
   }
 
   .motto {
-    font-size: clamp(20px, 7vw, 27px);
+    font-size: clamp(16px, 5.5vw, 21px);
+  }
+
+  .home-page .motto {
+    font-size: clamp(14px, 4.8vw, 18px);
+    margin-top: 14px;
   }
 
   .lede {
-    font-size: 20px;
-    margin-top: 20px;
+    font-size: 17px;
+    margin-top: 14px;
+  }
+
+  .home-page .lede {
+    font-size: 15px;
+    margin-top: 12px;
   }
 
   .actions {
-    margin-top: 28px;
+    margin-top: 20px;
+    gap: 10px;
   }
 
   .button {
     width: 100%;
+    min-height: 48px;
+    font-size: 16px;
   }
 
   .safety-note {
-    padding: 16px 16px;
-    font-size: 16px;
+    padding: 14px 16px;
+    font-size: 15px;
+  }
+
+  .home-page .hero {
+    gap: 22px;
+    padding: 14px 0 28px;
+  }
+
+  .hero-shot {
+    width: min(100%, 240px);
+    border-radius: 22px;
+  }
+
+  .home-page > .home-panel + .home-panel {
+    margin-top: 10px;
   }
 
   .section p,
   .notice-band p,
   .legal-intro,
   .legal-section p {
-    font-size: 18px;
+    font-size: 16px;
+  }
+
+  .home-page .section p,
+  .home-page .notice-band p {
+    font-size: 15px;
+  }
+
+  .home-page .feature p,
+  .home-page .privacy-point p {
+    font-size: 14px;
+  }
+
+  .feature-list {
+    gap: 18px;
+    margin-top: 20px;
   }
 
   .notice-band {
-    padding: 24px;
-    border-radius: 22px;
+    padding: 18px 16px;
+    border-radius: 20px;
   }
 
   .home-page .section {
-    padding: 52px 0;
+    padding: 34px 0;
   }
 
   .home-page #privacy,
   .home-page #kindness,
   .home-page .privacy-band {
-    border-radius: 22px;
+    border-radius: 20px;
     padding-inline: 14px;
   }
 
   .home-page .strip {
     width: min(1180px, calc(100% - 24px));
-    padding: 44px 14px;
-    border-radius: 22px;
+    padding: 30px 14px;
+    border-radius: 20px;
   }
 
   .gallery {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    overflow: visible;
+    grid-template-columns: repeat(5, minmax(130px, 1fr));
+    overflow-x: auto;
+    overflow-y: visible;
+    gap: 12px;
+    margin-top: 24px;
+    padding-bottom: 14px;
   }
 
   .gallery img {
-    min-width: 0;
+    min-width: 130px;
+    border-radius: 18px;
   }
 
   .phone-pair {
-    grid-template-columns: 1fr;
-    gap: 14px;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    max-width: 300px;
+    margin: 0 auto;
   }
 
   .phone-pair img:first-child,
@@ -796,8 +889,13 @@ h3 {
     transform: none;
   }
 
+  .single-shot {
+    width: min(100%, 220px);
+    border-radius: 22px;
+  }
+
   .single-shot,
   .hero-shot {
-    border-radius: 28px;
+    border-radius: 22px;
   }
 }
