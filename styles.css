@@ -23,7 +23,7 @@ body {
   color: var(--ink);
   background:
     linear-gradient(rgba(255, 255, 255, 0.76), rgba(255, 255, 255, 0.78)),
-    url("assets/watercolor-background.png") center top / cover fixed,
+    url("assets/watercolor-background.webp") center top / cover fixed,
     var(--paper);
   font-family: Athelas, Georgia, "Times New Roman", serif;
   line-height: 1.45;
@@ -700,7 +700,7 @@ h3 {
   body {
     background:
       linear-gradient(rgba(255, 255, 255, 0.76), rgba(255, 255, 255, 0.78)),
-      url("assets/watercolor-background.png") center top / cover,
+      url("assets/watercolor-background.webp") center top / cover,
       var(--paper);
   }
 }
