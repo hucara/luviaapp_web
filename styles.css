@@ -543,6 +543,31 @@ h3 {
   font-weight: 700;
 }
 
+.legal-section ul {
+  margin: 12px 0 0;
+  padding-left: 24px;
+  color: var(--muted);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.legal-section ul li {
+  margin: 6px 0;
+}
+
+.legal-section ul li + li {
+  margin-top: 8px;
+}
+
+.legal-group {
+  margin-top: 64px;
+}
+
+.legal-group > h2 {
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--line);
+}
+
 .updated {
   margin-top: 10px;
   color: var(--muted);
