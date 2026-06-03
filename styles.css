@@ -90,6 +90,19 @@ img {
   transform: translateY(-1px);
 }
 
+.lang-switch {
+  padding: 4px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.lang-switch:hover {
+  color: var(--ink);
+  border-color: var(--ink);
+}
+
 .hero,
 .section,
 .legal-page {
@@ -624,15 +637,23 @@ h3 {
   }
 
   h1 {
-    font-size: clamp(54px, 12vw, 88px);
+    font-size: clamp(44px, 10vw, 74px);
   }
 
   h2 {
-    font-size: clamp(36px, 9vw, 56px);
+    font-size: clamp(32px, 7.5vw, 48px);
   }
 
   h3 {
-    font-size: clamp(24px, 6vw, 34px);
+    font-size: clamp(22px, 5vw, 30px);
+  }
+
+  .subpage-hero h1 {
+    font-size: clamp(40px, 9.5vw, 64px);
+  }
+
+  .legal-page h1 {
+    font-size: clamp(38px, 8vw, 62px);
   }
 
   .home-page h1 {
@@ -774,11 +795,19 @@ h3 {
   }
 
   h1 {
-    font-size: clamp(36px, 11vw, 52px);
+    font-size: clamp(30px, 9vw, 42px);
   }
 
   h2 {
-    font-size: clamp(26px, 8.5vw, 38px);
+    font-size: clamp(23px, 7vw, 32px);
+  }
+
+  .subpage-hero h1 {
+    font-size: clamp(32px, 9vw, 46px);
+  }
+
+  .legal-page h1 {
+    font-size: clamp(30px, 8vw, 42px);
   }
 
   .home-page h1 {

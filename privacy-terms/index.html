@@ -3,9 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Privacy Policy and Terms of Service — Luvia</title>
+    <title>Privacy Policy and Terms of Service · Luvia</title>
     <meta name="description" content="Luvia's combined Privacy Policy and Terms of Service. What stays on your device, how Kind Messages work, age and safety, subscriptions, and how to contact support.">
     <link rel="icon" href="../assets/app-icon-128.png" type="image/png">
+    <link rel="alternate" hreflang="en" href="../privacy-terms/">
+    <link rel="alternate" hreflang="es" href="../es/privacy-terms/">
     <link rel="stylesheet" href="../styles.css">
   </head>
   <body>
@@ -20,13 +22,14 @@
         <a href="../#privacy">privacy</a>
         <a href="../#screens">screens</a>
         <a href="../privacy-terms/">privacy &amp; terms</a>
+        <a class="lang-switch" href="../es/privacy-terms/" hreflang="es">ES</a>
       </nav>
     </header>
 
     <main class="legal-page">
       <p class="eyebrow">privacy policy and terms of service</p>
-      <h1>Luvia — Privacy Policy and Terms of Service</h1>
-      <p class="updated"><strong>Last updated:</strong> May 21, 2026</p>
+      <h1>Privacy &amp; Terms</h1>
+      <p class="updated"><strong>Last updated:</strong> June 1, 2026</p>
       <p class="legal-intro">This page covers both Luvia's Privacy Policy and Terms of Service. By using Luvia, you agree to both.</p>
       <p class="legal-intro">Contact: <a href="mailto:support@luviaapp.net">support@luviaapp.net</a></p>
 
@@ -35,7 +38,7 @@
 
         <section class="legal-section">
           <h3>What stays on your device</h3>
-          <p>Your journal entries, gratitude notes, mood logs, breathe sessions, and local settings are stored on your device. Luvia does not upload these private reflections to a personal cloud account.</p>
+          <p>Your journal entries, gratitude notes, mood logs, breathe sessions, and local settings stay on your device.</p>
         </section>
 
         <section class="legal-section">
@@ -44,17 +47,26 @@
           <p>We process:</p>
           <ul>
             <li>Message and reply text (so it can be moderated and delivered to another user)</li>
-            <li>A pseudonymous user identifier derived from Sign in with Apple</li>
+            <li>A pseudonymous user identifier tied to your Sign in with Apple account</li>
             <li>Locale and time-zone hints sent by the app</li>
+            <li>A device push token, so we can notify you about a new message or reply (stored only if you enable notifications)</li>
             <li>Safety state such as report counts, dismissals, and ban status</li>
-            <li>Crash and error telemetry (no journal, mood, gratitude, or breathe content)</li>
+            <li>The email address associated with your Sign in with Apple account (which may be a private Apple relay address), so we can contact you about your account and, only if you opt in, send occasional marketing emails (see "Email communications and marketing")</li>
+            <li>Crash and error telemetry (no journal, mood, gratitude, or breathe content). User identifiers in these logs are stored only in hashed form.</li>
           </ul>
-          <p>We do not link messages to your real name, email address, contact list, or any third-party advertising identifier.</p>
+          <p>We do not link your messages to your real name or contact list, we never use your email address for advertising, and we do not share it with any third-party advertising identifier. Your email is stored separately from your Kind Messages content and is keyed only to your pseudonymous account identifier.</p>
         </section>
 
         <section class="legal-section">
           <h3>Sign in with Apple</h3>
-          <p>Sign in with Apple is used for account access and Kind Messages abuse prevention. Luvia does not request your name or email address, and your Apple identifier is stored only as needed to protect the service.</p>
+          <p>Sign in with Apple is used for account access and Kind Messages abuse prevention. When you sign in, an authentication account is created for you with our backend provider (Supabase) so the service can recognise you across sessions and devices. We request the email address associated with your Apple ID (which may be a private Apple relay address that forwards to your real inbox); see "Email communications and marketing" for how we use it. Luvia does not request your name, and your Apple identifier is stored only as needed to protect the service.</p>
+        </section>
+
+        <section class="legal-section">
+          <h3>Email communications and marketing</h3>
+          <p>When you sign in, we store the email address associated with your Apple ID so we can contact you about your account, such as subscription receipts and other essential service messages. This email is stored separately from your Kind Messages content and is keyed only to your pseudonymous account identifier.</p>
+          <p>If, and only if, you check the optional box at sign-in, we will also send you occasional marketing emails about Luvia, such as offers and product news. We rely on your consent as the lawful basis for these marketing emails. You can withdraw consent and stop marketing emails at any time using the unsubscribe link in any such email, or by contacting <a href="mailto:support@luviaapp.net">support@luviaapp.net</a>. Withdrawing consent does not affect essential account or billing emails.</p>
+          <p>We permanently delete your stored email address when you delete your account or your Kind Messages data.</p>
         </section>
 
         <section class="legal-section">
@@ -64,7 +76,8 @@
 
         <section class="legal-section">
           <h3>Safety checks and moderation</h3>
-          <p>Luvia runs local and server-side checks (including third-party moderation services such as OpenAI's moderation endpoint) to detect threats, harassment, sexual content, contact details, spam, or other unsafe content before a kind message is shared. Content that fails these checks may be blocked, hidden, or queued for human review.</p>
+          <p>Luvia runs both on-device and server-side checks (including third-party moderation services such as OpenAI's moderation endpoint) to detect threats, harassment, sexual content, self-harm, contact or payment details, links, spam, or other unsafe content before a kind message is shared. The same checks run on our servers so they cannot be bypassed. Content that fails these checks may be blocked, hidden, or queued for human review.</p>
+          <p>Kind Messages is available in English and Spanish only. To keep moderation reliable, messages written in unsupported languages or scripts may be blocked.</p>
         </section>
 
         <section class="legal-section">
@@ -86,12 +99,12 @@
 
         <section class="legal-section">
           <h3>Data retention</h3>
-          <p>Local data lives on your device until you delete it or uninstall the app. Kind Messages content is retained only as long as needed to operate the feature, moderate it, and respond to reports. Banned users' minimal safety records may be retained longer to prevent re-abuse.</p>
+          <p>Local data lives on your device until you delete it or uninstall the app. Kind Messages content is retained only as long as needed to operate the feature, moderate it, and respond to reports. When you delete your Kind Messages data or your account, the message and reply text you authored, your push tokens, your locale context, and your stored email address are permanently erased from our servers; messages written by other people that happened to be assigned to you are simply unassigned so they can return to the pool. Banned users' minimal safety records may be retained longer to prevent re-abuse.</p>
         </section>
 
         <section class="legal-section">
           <h3>Backups and deletion</h3>
-          <p>Device backups can include your journal, gratitudes, moods, and breathe sessions when you choose to export them. Kind Messages are excluded from backups. You can delete local kind message history from settings, and Luvia will request deletion of related server-side data where available. Account and Kind Messages data deletion remains available even if your subscription has ended.</p>
+          <p>Device backups can include your journal, gratitudes, moods, and breathe sessions when you choose to export them. Kind Messages are excluded from backups. You can delete local kind message history from settings, and Luvia will permanently delete the related server-side data you authored. Account and Kind Messages data deletion remains available even if your subscription has ended.</p>
         </section>
 
         <section class="legal-section">
@@ -103,11 +116,11 @@
           <h3>Third-party services</h3>
           <p>To operate Luvia we use:</p>
           <ul>
-            <li><strong>Apple</strong> — Sign in with Apple, App Store billing, push and background delivery.</li>
-            <li><strong>Supabase</strong> — hosting of Kind Messages backend and authentication, operated in the EU.</li>
-            <li><strong>RevenueCat</strong> — subscription entitlement management.</li>
-            <li><strong>OpenAI</strong> — automated moderation of Kind Messages content.</li>
-            <li><strong>Resend</strong> — sending transactional billing emails.</li>
+            <li><strong>Apple</strong>: Sign in with Apple, App Store billing, push and background delivery.</li>
+            <li><strong>Supabase</strong>: hosting of Kind Messages backend and authentication, operated in the EU.</li>
+            <li><strong>RevenueCat</strong>: subscription entitlement management.</li>
+            <li><strong>OpenAI</strong>: automated moderation of Kind Messages content.</li>
+            <li><strong>Resend</strong>: sending transactional billing emails and, where you have opted in, marketing emails.</li>
           </ul>
           <p>Each of these processes only the minimum data needed for its function.</p>
         </section>
@@ -143,7 +156,7 @@
         </section>
 
         <section class="legal-section">
-          <h3>Kind Messages — community rules</h3>
+          <h3>Kind Messages: community rules</h3>
           <p>Luvia, including Kind Messages, is intended for adults who are 18 or older. Kind Messages are for supportive, non-romantic, anonymous encouragement.</p>
           <p>You agree <strong>not</strong> to post, send, or share any of the following through Kind Messages or any other user-facing feature:</p>
           <ul>
@@ -213,6 +226,7 @@
         <a href="../features/">Features</a>
         <a href="../kindness/">Kind Messages</a>
         <a href="../privacy-terms/">Privacy &amp; Terms</a>
+        <a href="../es/privacy-terms/">Español</a>
         <a href="mailto:support@luviaapp.net">support@luviaapp.net</a>
       </div>
     </footer>
