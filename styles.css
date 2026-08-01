@@ -1,6 +1,6 @@
 :root {
   --ink: #243033;
-  --muted: #667476;
+  --muted: #5c6a6d;
   --mist: #eaf1f2;
   --line: rgba(36, 48, 51, 0.13);
   --paper: #fbfaf7;
@@ -22,6 +22,8 @@ html {
 
 body {
   margin: 0;
+  /* clip, not hidden: keeps the sticky header working */
+  overflow-x: clip;
   color: var(--ink);
   background:
     linear-gradient(rgba(255, 255, 255, 0.76), rgba(255, 255, 255, 0.78)),
@@ -199,7 +201,8 @@ h3 {
   margin: 28px 0 0;
   color: var(--muted);
   font-size: clamp(22px, 2.4vw, 31px);
-  font-weight: 700;
+  font-weight: 400;
+  line-height: 1.42;
 }
 
 .home-page .motto {
@@ -293,7 +296,8 @@ h3 {
   background: rgba(255, 255, 255, 0.62);
   color: var(--muted);
   font-size: 17px;
-  font-weight: 700;
+  font-weight: 400;
+  line-height: 1.55;
   box-shadow: 0 14px 34px rgba(36, 48, 51, 0.06);
 }
 
@@ -340,6 +344,7 @@ h3 {
 
 .home-page #privacy,
 .home-page #kindness,
+.home-page .faq-band,
 .home-page .privacy-band {
   border: 1px solid var(--line);
   border-radius: 34px;
@@ -361,7 +366,8 @@ h3 {
 .section p {
   color: var(--muted);
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 400;
+  line-height: 1.58;
 }
 
 .home-page .section p {
@@ -517,7 +523,7 @@ h3 {
   border-top: 1px solid var(--line);
   color: var(--muted);
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .footer-links {
@@ -563,7 +569,8 @@ h3 {
   margin: 12px 0 0;
   color: var(--muted);
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 400;
+  line-height: 1.55;
 }
 
 .notice-band {
@@ -586,7 +593,8 @@ h3 {
   margin: 12px 0 0;
   color: var(--muted);
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 400;
+  line-height: 1.58;
 }
 
 .legal-page h1 {
@@ -597,7 +605,8 @@ h3 {
   margin: 24px 0 54px;
   color: var(--muted);
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 400;
+  line-height: 1.52;
 }
 
 .legal-section {
@@ -609,7 +618,8 @@ h3 {
   margin: 10px 0 0;
   color: var(--muted);
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 400;
+  line-height: 1.6;
 }
 
 .legal-section ul {
@@ -617,7 +627,8 @@ h3 {
   padding-left: 24px;
   color: var(--muted);
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 400;
+  line-height: 1.6;
 }
 
 .legal-section ul li {
@@ -641,7 +652,7 @@ h3 {
   margin-top: 10px;
   color: var(--muted);
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 /* No-JS fallback: address is stored reversed in the HTML so harvesters
@@ -657,6 +668,15 @@ h3 {
 
 .faq-list {
   margin-top: 8px;
+}
+
+.home-page .faq-band .faq-list {
+  margin-top: 26px;
+}
+
+.home-page .faq-band .faq-item p {
+  font-size: 18px;
+  line-height: 1.6;
 }
 
 .faq-item {
@@ -697,7 +717,8 @@ h3 {
   margin: 0 0 22px;
   color: var(--muted);
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 400;
+  line-height: 1.6;
 }
 
 /* —— motion & polish —— */
@@ -834,14 +855,24 @@ summary:focus-visible,
     position: static;
     flex-wrap: wrap;
     align-items: flex-start;
-    gap: 14px;
-    padding: 16px 0 10px;
+    gap: 12px;
+    padding: 16px 0 14px;
   }
 
+  /* Pills that wrap onto a second row: no clipped labels, no hidden
+     horizontal scroll, and a comfortable tap target for each link. */
   .nav {
     width: 100%;
-    gap: 14px;
+    flex-wrap: wrap;
+    gap: 8px;
     font-size: 15px;
+  }
+
+  .nav a {
+    padding: 7px 14px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.55);
   }
 
   .hero,
@@ -933,6 +964,7 @@ summary:focus-visible,
 
   .home-page #privacy,
   .home-page #kindness,
+  .home-page .faq-band,
   .home-page .privacy-band {
     border-radius: 28px;
     padding-inline: 22px;
@@ -1009,20 +1041,12 @@ summary:focus-visible,
   }
 
   .nav {
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    overflow-x: auto;
-    padding-bottom: 8px;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-  }
-
-  .nav::-webkit-scrollbar {
-    display: none;
+    gap: 7px;
+    font-size: 14px;
   }
 
   .nav a {
-    flex: 0 0 auto;
+    padding: 6px 12px;
   }
 
   .hero,
@@ -1036,63 +1060,77 @@ summary:focus-visible,
   }
 
   h1 {
-    font-size: clamp(30px, 9vw, 42px);
-  }
-
-  h2 {
-    font-size: clamp(23px, 7vw, 32px);
-  }
-
-  .subpage-hero h1 {
-    font-size: clamp(32px, 9vw, 46px);
-  }
-
-  .legal-page h1 {
-    font-size: clamp(30px, 8vw, 42px);
-  }
-
-  .home-page h1 {
-    font-size: clamp(30px, 10vw, 44px);
-    line-height: 1.02;
-  }
-
-  .home-page h2 {
-    font-size: clamp(22px, 7.5vw, 32px);
+    font-size: clamp(34px, 10.5vw, 46px);
     line-height: 1.06;
   }
 
+  h2 {
+    font-size: clamp(26px, 7.6vw, 34px);
+  }
+
+  .subpage-hero h1 {
+    font-size: clamp(34px, 9.5vw, 48px);
+  }
+
+  .legal-page h1 {
+    font-size: clamp(32px, 8.5vw, 44px);
+  }
+
+  .home-page h1 {
+    font-size: clamp(34px, 11vw, 46px);
+    line-height: 1.05;
+  }
+
+  .home-page h2 {
+    font-size: clamp(25px, 7.6vw, 33px);
+    line-height: 1.12;
+  }
+
   .home-page h3 {
-    font-size: clamp(17px, 5vw, 22px);
+    font-size: 19px;
+    line-height: 1.25;
   }
 
   .motto {
-    font-size: clamp(16px, 5.5vw, 21px);
+    font-size: clamp(17px, 5.2vw, 21px);
+    line-height: 1.28;
   }
 
   .home-page .motto {
-    font-size: clamp(14px, 4.8vw, 18px);
-    margin-top: 14px;
+    font-size: 17px;
+    line-height: 1.3;
+    margin-top: 16px;
   }
 
   .lede {
     font-size: 17px;
-    margin-top: 14px;
+    line-height: 1.55;
+    margin-top: 16px;
   }
 
   .home-page .lede {
-    font-size: 15px;
-    margin-top: 12px;
+    font-size: 16.5px;
+    line-height: 1.6;
+    margin-top: 14px;
   }
 
   .actions {
-    margin-top: 20px;
+    margin-top: 24px;
     gap: 10px;
   }
 
+  /* Primary CTA owns its own row; anything secondary shares the row
+     below it so the hero isn't a stack of identical full-width pills. */
   .button {
-    width: 100%;
+    flex: 1 1 auto;
+    min-width: 0;
     min-height: 48px;
+    padding: 0 16px;
     font-size: 16px;
+  }
+
+  .button.primary {
+    flex-basis: 100%;
   }
 
   .safety-note {
@@ -1101,24 +1139,30 @@ summary:focus-visible,
   }
 
   .home-page .hero {
-    gap: 22px;
-    padding: 14px 0 28px;
+    gap: 30px;
+    padding: 18px 0 34px;
   }
 
   .hero-shot {
-    width: min(100%, 240px);
-    border-radius: 22px;
+    width: min(100%, 300px);
+    border-radius: 26px;
   }
 
   .home-page > .home-panel + .home-panel {
-    margin-top: 10px;
+    margin-top: 16px;
   }
 
   .section p,
   .notice-band p,
   .legal-intro,
-  .legal-section p {
-    font-size: 16px;
+  .legal-section p,
+  .legal-section ul {
+    font-size: 16.5px;
+    line-height: 1.62;
+  }
+
+  .legal-intro {
+    margin-bottom: 36px;
   }
 
   .faq-item summary {
@@ -1133,78 +1177,116 @@ summary:focus-visible,
 
   .home-page .section p,
   .home-page .notice-band p {
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 1.62;
   }
 
   .home-page .feature p,
   .home-page .privacy-point p {
-    font-size: 14px;
+    font-size: 15.5px;
+    line-height: 1.6;
   }
 
   .feature-list {
-    gap: 18px;
-    margin-top: 20px;
+    gap: 26px;
+    margin-top: 26px;
+  }
+
+  .feature,
+  .privacy-point {
+    padding-top: 20px;
+  }
+
+  .privacy-grid {
+    gap: 26px;
+    margin-top: 30px;
+  }
+
+  .eyebrow {
+    margin-bottom: 12px;
+    font-size: 15px;
+    letter-spacing: 0.02em;
   }
 
   .notice-band {
-    padding: 18px 16px;
-    border-radius: 20px;
+    padding: 24px 20px;
+    border-radius: 22px;
   }
 
   .home-page .section {
-    padding: 34px 0;
+    padding: 46px 0;
   }
 
   .home-page #privacy,
   .home-page #kindness,
+  .home-page .faq-band,
   .home-page .privacy-band {
-    border-radius: 20px;
-    padding-inline: 14px;
+    border-radius: 24px;
+    padding-inline: 20px;
   }
 
   .home-page .strip {
     width: min(1180px, calc(100% - 24px));
-    padding: 30px 14px;
-    border-radius: 20px;
+    padding: 42px 20px;
+    border-radius: 24px;
   }
 
+  /* A snap carousel of readable screenshots, bleeding past the panel's
+     right edge so it's obvious there is more to swipe. */
   .gallery {
-    grid-template-columns: repeat(5, minmax(130px, 1fr));
+    grid-auto-flow: column;
+    grid-auto-columns: 58vw;
+    grid-template-columns: none;
+    gap: 14px;
+    margin-top: 28px;
+    margin-right: -20px;
+    padding-right: 20px;
+    padding-bottom: 6px;
     overflow-x: auto;
     overflow-y: visible;
-    gap: 12px;
-    margin-top: 24px;
-    padding-bottom: 14px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .gallery::-webkit-scrollbar {
+    display: none;
   }
 
   .gallery img {
-    min-width: 130px;
-    border-radius: 18px;
+    width: 100%;
+    min-width: 0;
+    border-radius: 20px;
+    scroll-snap-align: start;
   }
 
+  /* Two 145px-wide phones read as noise on a handset; show the one that
+     illustrates the section and let the carousel cover the rest. */
   .phone-pair {
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    max-width: 300px;
+    grid-template-columns: 1fr;
+    gap: 0;
+    max-width: 270px;
     margin: 0 auto;
   }
 
+  .phone-pair img:last-child {
+    display: none;
+  }
+
   .phone-pair img:first-child,
-  .phone-pair img:last-child,
   .hero-shot,
   .phone-pair img:first-child:hover,
-  .phone-pair img:last-child:hover,
   .hero-shot:hover {
     transform: none;
   }
 
   .single-shot {
-    width: min(100%, 220px);
-    border-radius: 22px;
+    width: min(100%, 270px);
   }
 
   .single-shot,
+  .phone-pair img,
   .hero-shot {
-    border-radius: 22px;
+    border-radius: 26px;
   }
 }
