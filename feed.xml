@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Luvia Blog</title>
+    <link>https://luviaapp.net/blog/</link>
+    <description>Quiet, evidence-led writing on rituals, mood and kindness.</description>
+    <language>en</language>
+    <atom:link href="https://luviaapp.net/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>WOOP: the manifestation method with science behind it</title>
+      <link>https://luviaapp.net/blog/woop-manifestation/</link>
+      <guid isPermaLink="true">https://luviaapp.net/blog/woop-manifestation/</guid>
+      <pubDate>Sun, 09 Aug 2026 09:00:00 +0000</pubDate>
+      <description>Wishing is where every good change starts. WOOP keeps the wishing and adds the step that makes it move: naming the obstacle.</description>
+    </item>
+    <item>
+      <title>Is Luvia safe? A plain answer from the people who make it</title>
+      <link>https://luviaapp.net/blog/is-luvia-safe/</link>
+      <guid isPermaLink="true">https://luviaapp.net/blog/is-luvia-safe/</guid>
+      <pubDate>Sun, 09 Aug 2026 09:00:00 +0000</pubDate>
+      <description>What never leaves your device, what anonymity structurally prevents, and how moderation works.</description>
+    </item>
+    <item>
+      <title>The best private mood tracker apps for iPhone (2026)</title>
+      <link>https://luviaapp.net/blog/best-private-mood-tracker-apps/</link>
+      <guid isPermaLink="true">https://luviaapp.net/blog/best-private-mood-tracker-apps/</guid>
+      <pubDate>Sun, 09 Aug 2026 09:00:00 +0000</pubDate>
+      <description>Five trackers that respect your privacy, ranked by where the data lives and how the business makes money.</description>
+    </item>
+    <item>
+      <title>Luvia vs Daylio vs Bearable: which fits you?</title>
+      <link>https://luviaapp.net/blog/luvia-vs-daylio-vs-bearable/</link>
+      <guid isPermaLink="true">https://luviaapp.net/blog/luvia-vs-daylio-vs-bearable/</guid>
+      <pubDate>Sun, 09 Aug 2026 09:00:00 +0000</pubDate>
+      <description>Three good apps that want different things for you: speed, health data, or calm.</description>
+    </item>
+    <item>
+      <title>The best meditation and manifestation apps for 2026</title>
+      <link>https://luviaapp.net/blog/best-meditation-manifestation-apps/</link>
+      <guid isPermaLink="true">https://luviaapp.net/blog/best-meditation-manifestation-apps/</guid>
+      <pubDate>Sun, 09 Aug 2026 09:00:00 +0000</pubDate>
+      <description>Guided meditation, free libraries, quiet timers, and the one manifestation method with evidence.</description>
+    </item>
+  </channel>
+</rss>

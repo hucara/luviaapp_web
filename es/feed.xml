@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog de Luvia</title>
+    <link>https://luviaapp.net/es/blog/</link>
+    <description>Textos tranquilos sobre rituales, ánimo y amabilidad.</description>
+    <language>es</language>
+    <atom:link href="https://luviaapp.net/es/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>WOOP: el método de manifestación con ciencia detrás</title>
+      <link>https://luviaapp.net/es/blog/woop-manifestacion/</link>
+      <guid isPermaLink="true">https://luviaapp.net/es/blog/woop-manifestacion/</guid>
+      <pubDate>Sun, 09 Aug 2026 09:00:00 +0000</pubDate>
+      <description>Desear es donde empieza todo cambio bueno. WOOP mantiene el deseo y añade el paso que lo mueve: nombrar el obstáculo.</description>
+    </item>
+    <item>
+      <title>¿Es segura Luvia? Una respuesta clara de quienes la hacemos</title>
+      <link>https://luviaapp.net/es/blog/es-luvia-segura/</link>
+      <guid isPermaLink="true">https://luviaapp.net/es/blog/es-luvia-segura/</guid>
+      <pubDate>Sun, 09 Aug 2026 09:00:00 +0000</pubDate>
+      <description>Lo que nunca sale de tu dispositivo, lo que el anonimato impide por estructura y cómo funciona la moderación.</description>
+    </item>
+    <item>
+      <title>Las mejores apps privadas para registrar tu ánimo (2026)</title>
+      <link>https://luviaapp.net/es/blog/mejores-apps-privadas-registro-animo/</link>
+      <guid isPermaLink="true">https://luviaapp.net/es/blog/mejores-apps-privadas-registro-animo/</guid>
+      <pubDate>Sun, 09 Aug 2026 09:00:00 +0000</pubDate>
+      <description>Cinco apps que respetan tu privacidad, ordenadas por dónde viven los datos y de qué vive el negocio.</description>
+    </item>
+    <item>
+      <title>Luvia vs Daylio vs Bearable: ¿cuál te encaja?</title>
+      <link>https://luviaapp.net/es/blog/luvia-vs-daylio-vs-bearable/</link>
+      <guid isPermaLink="true">https://luviaapp.net/es/blog/luvia-vs-daylio-vs-bearable/</guid>
+      <pubDate>Sun, 09 Aug 2026 09:00:00 +0000</pubDate>
+      <description>Tres buenas apps que quieren cosas distintas para ti: rapidez, datos de salud o calma.</description>
+    </item>
+    <item>
+      <title>Las mejores apps de meditación y manifestación para 2026</title>
+      <link>https://luviaapp.net/es/blog/mejores-apps-meditacion-manifestacion/</link>
+      <guid isPermaLink="true">https://luviaapp.net/es/blog/mejores-apps-meditacion-manifestacion/</guid>
+      <pubDate>Sun, 09 Aug 2026 09:00:00 +0000</pubDate>
+      <description>Meditación guiada, bibliotecas gratuitas, temporizadores silenciosos y el método de manifestación con evidencia.</description>
+    </item>
+  </channel>
+</rss>

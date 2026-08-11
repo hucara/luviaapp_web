@@ -3,72 +3,156 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://luviaapp.net/</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-09</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://luviaapp.net/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://luviaapp.net/es/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://luviaapp.net/"/>
   </url>
   <url>
     <loc>https://luviaapp.net/es/</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-09</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://luviaapp.net/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://luviaapp.net/es/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://luviaapp.net/"/>
   </url>
   <url>
     <loc>https://luviaapp.net/features/</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-09</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://luviaapp.net/features/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://luviaapp.net/es/features/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://luviaapp.net/features/"/>
   </url>
   <url>
     <loc>https://luviaapp.net/es/features/</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-09</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://luviaapp.net/features/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://luviaapp.net/es/features/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://luviaapp.net/features/"/>
   </url>
   <url>
     <loc>https://luviaapp.net/kindness/</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-09</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://luviaapp.net/kindness/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://luviaapp.net/es/kindness/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://luviaapp.net/kindness/"/>
   </url>
   <url>
     <loc>https://luviaapp.net/es/kindness/</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-09</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://luviaapp.net/kindness/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://luviaapp.net/es/kindness/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://luviaapp.net/kindness/"/>
   </url>
   <url>
     <loc>https://luviaapp.net/support/</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-09</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://luviaapp.net/support/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://luviaapp.net/es/support/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://luviaapp.net/support/"/>
   </url>
   <url>
     <loc>https://luviaapp.net/es/support/</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-09</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://luviaapp.net/support/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://luviaapp.net/es/support/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://luviaapp.net/support/"/>
   </url>
   <url>
     <loc>https://luviaapp.net/privacy-terms/</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-09</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://luviaapp.net/privacy-terms/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://luviaapp.net/es/privacy-terms/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://luviaapp.net/privacy-terms/"/>
   </url>
   <url>
     <loc>https://luviaapp.net/es/privacy-terms/</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-09</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://luviaapp.net/privacy-terms/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://luviaapp.net/es/privacy-terms/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://luviaapp.net/privacy-terms/"/>
+  </url>
+  <url>
+    <loc>https://luviaapp.net/blog/</loc>
+    <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luviaapp.net/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luviaapp.net/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luviaapp.net/blog/"/>
+  </url>
+  <url>
+    <loc>https://luviaapp.net/es/blog/</loc>
+    <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luviaapp.net/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luviaapp.net/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luviaapp.net/blog/"/>
+  </url>
+  <url>
+    <loc>https://luviaapp.net/blog/woop-manifestation/</loc>
+    <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luviaapp.net/blog/woop-manifestation/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luviaapp.net/es/blog/woop-manifestacion/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luviaapp.net/blog/woop-manifestation/"/>
+  </url>
+  <url>
+    <loc>https://luviaapp.net/es/blog/woop-manifestacion/</loc>
+    <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luviaapp.net/blog/woop-manifestation/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luviaapp.net/es/blog/woop-manifestacion/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luviaapp.net/blog/woop-manifestation/"/>
+  </url>
+  <url>
+    <loc>https://luviaapp.net/blog/is-luvia-safe/</loc>
+    <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luviaapp.net/blog/is-luvia-safe/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luviaapp.net/es/blog/es-luvia-segura/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luviaapp.net/blog/is-luvia-safe/"/>
+  </url>
+  <url>
+    <loc>https://luviaapp.net/es/blog/es-luvia-segura/</loc>
+    <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luviaapp.net/blog/is-luvia-safe/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luviaapp.net/es/blog/es-luvia-segura/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luviaapp.net/blog/is-luvia-safe/"/>
+  </url>
+  <url>
+    <loc>https://luviaapp.net/blog/best-private-mood-tracker-apps/</loc>
+    <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luviaapp.net/blog/best-private-mood-tracker-apps/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luviaapp.net/es/blog/mejores-apps-privadas-registro-animo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luviaapp.net/blog/best-private-mood-tracker-apps/"/>
+  </url>
+  <url>
+    <loc>https://luviaapp.net/es/blog/mejores-apps-privadas-registro-animo/</loc>
+    <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luviaapp.net/blog/best-private-mood-tracker-apps/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luviaapp.net/es/blog/mejores-apps-privadas-registro-animo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luviaapp.net/blog/best-private-mood-tracker-apps/"/>
+  </url>
+  <url>
+    <loc>https://luviaapp.net/blog/luvia-vs-daylio-vs-bearable/</loc>
+    <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luviaapp.net/blog/luvia-vs-daylio-vs-bearable/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luviaapp.net/es/blog/luvia-vs-daylio-vs-bearable/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luviaapp.net/blog/luvia-vs-daylio-vs-bearable/"/>
+  </url>
+  <url>
+    <loc>https://luviaapp.net/es/blog/luvia-vs-daylio-vs-bearable/</loc>
+    <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luviaapp.net/blog/luvia-vs-daylio-vs-bearable/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luviaapp.net/es/blog/luvia-vs-daylio-vs-bearable/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luviaapp.net/blog/luvia-vs-daylio-vs-bearable/"/>
+  </url>
+  <url>
+    <loc>https://luviaapp.net/blog/best-meditation-manifestation-apps/</loc>
+    <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luviaapp.net/blog/best-meditation-manifestation-apps/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luviaapp.net/es/blog/mejores-apps-meditacion-manifestacion/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luviaapp.net/blog/best-meditation-manifestation-apps/"/>
+  </url>
+  <url>
+    <loc>https://luviaapp.net/es/blog/mejores-apps-meditacion-manifestacion/</loc>
+    <lastmod>2026-08-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://luviaapp.net/blog/best-meditation-manifestation-apps/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://luviaapp.net/es/blog/mejores-apps-meditacion-manifestacion/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://luviaapp.net/blog/best-meditation-manifestation-apps/"/>
   </url>
 </urlset>

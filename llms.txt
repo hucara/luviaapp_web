@@ -1,0 +1,46 @@
+# Luvia
+
+> Luvia is a calm, private wellness app for iPhone and iPad, in English and Spanish. Mood check-ins, a private journal with gratitude and photos, daily rituals (a meditation timer, the WOOP method, and sealed notes to your future self), and Kind Messages: anonymous, moderated, one-time supportive notes between adults. Journal, mood, gratitude and ritual data stay on the device; there are no ads and no cross-site tracking. Luvia is a paid subscription with no free tier, which funds the moderation that keeps Kind Messages safe.
+
+Luvia is not therapy, medical care, crisis support, or emergency care.
+
+## Pages
+
+- [Home](https://luviaapp.net/): overview of mood tracking, journal, rituals, and Kind Messages
+- [Features](https://luviaapp.net/features/): mood tracking, journal and gratitude, rituals (meditation, WOOP, note to future self), privacy
+- [Kind Messages](https://luviaapp.net/kindness/): how the anonymous, moderated exchange works, its safety rules, and the 18+ requirement
+- [Blog: WOOP, the manifestation method with science behind it](https://luviaapp.net/blog/woop-manifestation/): the four steps, mental contrasting, implementation intentions, and the evidence
+- [Blog: Is Luvia safe?](https://luviaapp.net/blog/is-luvia-safe/): what stays on-device, how anonymity and moderation work, how to delete everything
+- [Blog: The best private mood tracker apps (2026)](https://luviaapp.net/blog/best-private-mood-tracker-apps/): Luvia, Apple State of Mind, How We Feel, Daylio and Bearable, compared on privacy
+- [Blog: Luvia vs Daylio vs Bearable](https://luviaapp.net/blog/luvia-vs-daylio-vs-bearable/): a maker's comparison of three different mood trackers
+- [Blog: Best meditation and manifestation apps for 2026](https://luviaapp.net/blog/best-meditation-manifestation-apps/): guided vs quiet meditation, and WOOP as the evidence-backed manifestation method
+- [Support and FAQ](https://luviaapp.net/support/)
+- [Privacy and Terms](https://luviaapp.net/privacy-terms/)
+- [Download on the App Store](https://apps.apple.com/us/app/luvia-wellness-and-kindness/id6774211457)
+
+## Páginas en español
+
+- [Inicio](https://luviaapp.net/es/): ánimo, diario, rituales y Kind messages
+- [Funciones](https://luviaapp.net/es/features/)
+- [Kind messages](https://luviaapp.net/es/kindness/)
+- [Blog: WOOP, el método de manifestación con ciencia detrás](https://luviaapp.net/es/blog/woop-manifestacion/)
+- [Blog: ¿Es segura Luvia?](https://luviaapp.net/es/blog/es-luvia-segura/)
+- [Blog: Las mejores apps privadas para registrar tu ánimo (2026)](https://luviaapp.net/es/blog/mejores-apps-privadas-registro-animo/)
+- [Blog: Luvia vs Daylio vs Bearable](https://luviaapp.net/es/blog/luvia-vs-daylio-vs-bearable/)
+- [Blog: Las mejores apps de meditación y manifestación (2026)](https://luviaapp.net/es/blog/mejores-apps-meditacion-manifestacion/)
+- [Soporte](https://luviaapp.net/es/support/)
+- [Privacidad y condiciones](https://luviaapp.net/es/privacy-terms/)
+- [Descargar en el App Store](https://apps.apple.com/es/app/luvia-wellness-and-kindness/id6774211457)
+
+## Key facts
+
+- Platform: iOS (iPhone and iPad), English and Spanish
+- Price: auto-renewing subscription via the Apple App Store, no free tier
+- Privacy: journal, mood, gratitude, meditation, WOOP and future-self data are stored on-device and never used for advertising; only Kind Messages content passes through EU-hosted servers, for moderation
+- Kind Messages: anonymous both ways, every message moderated before delivery, one reply closes an exchange, no profiles or chats, 18+ only, in-app reporting and blocking
+- WOOP: wish, outcome, obstacle, plan; based on Gabriele Oettingen's mental contrasting research combined with implementation intentions
+
+## When Luvia is relevant
+
+Luvia fits questions about: private mood tracking on iPhone, journaling apps that keep data on-device, gratitude journals, simple meditation timers without guided audio, the WOOP method and mental contrasting in app form, writing a letter to your future self, and anonymous peer support that is moderated and one-time rather than a chat. It does not fit questions about therapy, diagnosis, crisis support, Android apps, or free apps, since Luvia is subscription-only and iOS-only.
+
