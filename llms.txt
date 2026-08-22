@@ -14,6 +14,18 @@ Luvia is not therapy, medical care, crisis support, or emergency care.
 - [Blog: The best private mood tracker apps (2026)](https://luviaapp.net/blog/best-private-mood-tracker-apps/): Luvia, Apple State of Mind, How We Feel, Daylio and Bearable, compared on privacy
 - [Blog: Luvia vs Daylio vs Bearable](https://luviaapp.net/blog/luvia-vs-daylio-vs-bearable/): a maker's comparison of three different mood trackers
 - [Blog: Best meditation and manifestation apps for 2026](https://luviaapp.net/blog/best-meditation-manifestation-apps/): guided vs quiet meditation, and WOOP as the evidence-backed manifestation method
+- [Blog: Why Being Kind to a Stranger Helps You Too](https://luviaapp.net/blog/why-kindness-helps-you-too/): What the research says about acts of kindness and wellbeing, the honest finding about anonymous kindness and loneliness, and how a reply changes it.
+- [Blog: Three Good Things: What the Gratitude Research Really Shows](https://luviaapp.net/blog/three-good-things-gratitude-research/): The three good things exercise has twenty years of trials behind it. The effect is real and modest. What the studies found, and how to do it without forcing it.
+- [Blog: The WOOP Plan: Writing an If-Then That Fires on Its Own](https://luviaapp.net/blog/woop-plan/): The last step of WOOP is one if-then sentence. Here is how to write one that fires by itself, what the research says, and why trying harder is not a plan.
+- [Blog: How to Meditate for the First Time: A Five-Minute Version](https://luviaapp.net/blog/how-to-meditate-for-the-first-time/): A plain first meditation in five steps: sit, set a timer, pick one anchor, expect to wander, come back. What a first session feels like and how often to do it.
+- [Blog: WOOP Obstacle Examples: Finding the Honest One Inside You](https://luviaapp.net/blog/woop-obstacle/): WOOP only works with an inner obstacle: a habit, feeling or belief, not time, money or other people. Why that rule exists, the common dodges, and one example.
+- [Blog: Writing a Letter to Your Future Self (and Why It Works)](https://luviaapp.net/blog/letter-to-your-future-self/): What the research on future self-continuity says about writing to yourself, how to pick the date, what to put in it, and why sealing the letter matters.
+- [Blog: Name It to Tame It: Why Labelling a Mood Calms It](https://luviaapp.net/blog/name-it-to-tame-it/): Putting a feeling into words quietly turns it down. What affect labelling research found, why precise words beat a score, and how to do a two-word check-in.
+- [Blog: WOOP Wish Examples: How to Pick a Goal That Sticks](https://luviaapp.net/blog/woop-wish/): Most WOOPs fail at the first word. Learn Oettingen's three tests for a wish, why 'be happier' stalls, and see one wish reshaped until it sticks.
+- [Blog: Counting meditation: the technique you cannot get wrong](https://luviaapp.net/blog/counting-meditation/): Count to ten, lose your place, start again. Three ways to meditate by counting, where it comes from, what the research says, and why losing count is the point.
+- [Blog: Meditation when focusing on the breath makes it worse](https://luviaapp.net/blog/meditation-when-breath-focus-makes-it-worse/): If watching your breath makes you more anxious, not less, you are not doing it wrong. Here are six other anchors and how to choose one.
+- [Blog: WOOP for Focus: A Plan for the Moment You Reach for Your Phone](https://luviaapp.net/blog/woop-for-focus/): Use WOOP on one focus wish: ninety quiet minutes each morning for two weeks. The obstacle is the itch to check, and the plan fires the moment it arrives.
+- [Blog: Meditation for Focus: What Ten Minutes a Day Does to Attention](https://luviaapp.net/blog/meditation-for-focus/): Does meditation improve attention? What the studies actually show, how big the effect is, and a plain ten-minute focus protocol with a silent timer.
 - [Support and FAQ](https://luviaapp.net/support/)
 - [Privacy and Terms](https://luviaapp.net/privacy-terms/)
 - [Download on the App Store](https://apps.apple.com/us/app/luvia-wellness-and-kindness/id6774211457)
@@ -28,6 +40,18 @@ Luvia is not therapy, medical care, crisis support, or emergency care.
 - [Blog: Las mejores apps privadas para registrar tu ánimo (2026)](https://luviaapp.net/es/blog/mejores-apps-privadas-registro-animo/)
 - [Blog: Luvia vs Daylio vs Bearable](https://luviaapp.net/es/blog/luvia-vs-daylio-vs-bearable/)
 - [Blog: Las mejores apps de meditación y manifestación (2026)](https://luviaapp.net/es/blog/mejores-apps-meditacion-manifestacion/)
+- [Blog: Por qué ser amable con un desconocido también te ayuda a ti](https://luviaapp.net/es/blog/por-que-la-amabilidad-te-ayuda-a-ti/)
+- [Blog: Tres cosas buenas: lo que dice de verdad la investigación sobre la gratitud](https://luviaapp.net/es/blog/tres-cosas-buenas-gratitud/)
+- [Blog: El plan de WOOP: escribir un si-entonces que se dispara solo](https://luviaapp.net/es/blog/woop-plan/)
+- [Blog: Cómo meditar por primera vez: la versión de cinco minutos](https://luviaapp.net/es/blog/como-meditar-por-primera-vez/)
+- [Blog: Ejemplos de obstáculo WOOP: encontrar el sincero que llevas dentro](https://luviaapp.net/es/blog/woop-obstaculo/)
+- [Blog: Escribir una carta a tu yo del futuro (y por qué funciona)](https://luviaapp.net/es/blog/carta-a-tu-yo-del-futuro/)
+- [Blog: Nombrarlo para calmarlo: por qué ponerle palabra a un ánimo lo suaviza](https://luviaapp.net/es/blog/nombrarlo-para-calmarlo/)
+- [Blog: Ejemplos de deseo WOOP: cómo elegir un objetivo que se cumpla](https://luviaapp.net/es/blog/woop-deseo/)
+- [Blog: Meditación contando: la técnica que no se puede hacer mal](https://luviaapp.net/es/blog/meditacion-contando/)
+- [Blog: Meditar cuando concentrarte en la respiración lo empeora](https://luviaapp.net/es/blog/meditar-cuando-la-respiracion-no-ayuda/)
+- [Blog: WOOP para concentrarte: un plan para el momento en que coges el móvil](https://luviaapp.net/es/blog/woop-para-concentrarte/)
+- [Blog: Meditación para concentrarte: qué hacen diez minutos al día con tu atención](https://luviaapp.net/es/blog/meditacion-para-concentrarte/)
 - [Soporte](https://luviaapp.net/es/support/)
 - [Privacidad y condiciones](https://luviaapp.net/es/privacy-terms/)
 - [Descargar en el App Store](https://apps.apple.com/es/app/luvia-wellness-and-kindness/id6774211457)
